@@ -19,14 +19,17 @@ namespace Task4
             switch (_selectionFromCatalog)
             {
                 case "Стол":
+                case "стол":
                 case "1914":
                     Console.WriteLine($"Ваш {_articles["Стол"]}");
                     break;
                 case "Телевизор":
+                case "телевизор":
                 case "1517":
                     Console.WriteLine($"Ваш {_articles["Телевизор"]}");
                     break;
                 case "Монитор":
+                case "монитор":
                 case "1433":
                     Console.WriteLine($"Ваш {_articles["Монитор"]}");
                     break;

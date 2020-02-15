@@ -25,7 +25,7 @@ namespace Task4
                 if (_productName[0] == index)
                     return $"{_productName[0]} расположен в {_shopName[0]}. Цена {_tableCost}";
                 else if (_productName[1] == index)
-                    return $"{_productName[1]} расположен в {_shopName}. Цена {_tvCost}";
+                    return $"{_productName[1]} расположен в {_shopName[1]}. Цена {_tvCost}";
                 else if (_productName[2] == index)
                     return $"{_productName[2]} расположен в {_shopName[2]}. Цена {_monitorCost}";
                 else

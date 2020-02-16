@@ -5,7 +5,7 @@ namespace Task4
     class Article
     {
         readonly string[] _productName, _shopName;
-        const double _tableCost = 1500.30, _tvCost = 3320.50, _monitorCost = 2230;
+        const double TABLECOST = 1500.30, TVCOST = 3320.50, MONITORCOST = 2230;
 
         public Article(params string[] listOfInformationFromStore)
         {
@@ -23,11 +23,11 @@ namespace Task4
             get
             {
                 if (_productName[0] == index)
-                    return $"{_productName[0]} расположен в {_shopName[0]}. Цена {_tableCost}";
+                    return $"{_productName[0]} расположен в {_shopName[0]}. Цена {TABLECOST}";
                 else if (_productName[1] == index)
-                    return $"{_productName[1]} расположен в {_shopName[1]}. Цена {_tvCost}";
+                    return $"{_productName[1]} расположен в {_shopName[1]}. Цена {TVCOST}";
                 else if (_productName[2] == index)
-                    return $"{_productName[2]} расположен в {_shopName[2]}. Цена {_monitorCost}";
+                    return $"{_productName[2]} расположен в {_shopName[2]}. Цена {MONITORCOST}";
                 else
                     return $"{index} отсутствует в магазинах.";
             }
